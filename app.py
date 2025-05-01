@@ -89,7 +89,7 @@ st.write("Versión de Python:", platform.python_version())
 
 # Mostrar imagen del golem
 try:
-    golem_img = Image.open('golem_sabio.png')
+    golem_img = Image.open('golem.jpeg')
     st.image(golem_img, width=250)
 except:
     pass
